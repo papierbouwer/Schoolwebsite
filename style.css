@@ -1,0 +1,263 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main{
+  width: 80%;
+  min-width: 220px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding-bottom: 10px;
+  font-family: Calibri;
+}
+
+.container{
+  padding: 15px;
+  padding-top: 30px;
+}
+
+.topBar{
+	margin: 0px;
+	padding: 0px;
+}
+
+iframe[seamless], iframe.noborder{
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav{
+  font-size: 18px;
+  background-color: #eee;
+  height: 50px;
+  transition: height 1s, ease 0.3s;
+  overflow: hidden;
+}
+
+nav ul{
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  height: 50px;
+  padding: 10px;
+  width: 25%;
+  display: inline-block;
+  transition: background-color 0.5s;
+  text-align: center;
+  padding: 13px;
+  box-sizing: border-box;
+  border-bottom: none;
+}
+
+nav ul li:hover{
+  background-color: #ddd;
+  text-decoration: underline;
+  box-sizing: border-box;
+}
+
+.tableline tbody tr td{
+	border: 1px black solid;
+}
+
+.tableline tbody tr:first-child{
+	background-color: #ddd;
+}
+
+.tableline tbody tr td:first-child{
+	background-color: #ddd;
+}
+
+.handle{
+  display: none;
+}
+
+.handle p{
+	margin: 0px;
+	padding: 13px;
+}
+
+.message{
+  width: 70%;
+  float: left;
+  padding: 10px 0px;
+}
+
+.sideBar{
+  width: 25%;
+  min-width: 220px;
+  float: right;
+  padding: 10px;
+}
+
+.inlog{
+  height: 125px;
+  margin-top: 60px;
+}
+
+.inlog input{
+  padding: 5px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 1s, ease 0.3s;
+}
+
+.inlog input[type="button"]{
+	width: 10em;
+}
+
+.label{
+	width: 30%;
+	display: inline-block;
+}
+
+.inputlogin{
+	width: 65%;
+	display: inline-block;
+}
+
+.inlogrij{
+	margin: 5px;
+}
+#recentWindow{
+	min-height: 180px;
+}
+
+#vorige{
+	float: left;
+}
+
+#volgende{
+	float: right;
+}
+
+.ccsvalm{
+	padding-top: 4em;
+}
+
+.form form textarea{
+	width: 80%;
+	height: 300px;
+}
+
+#kortInhoud{
+	height: 100px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.bold{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.lrt{
+	direction: ltr;
+	unicode-bidi:bidi-override;
+}
+
+.rtl{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.grote1, .grote1px{ font-size: 1px; } .grote2, .grote2px{ font-size: 2px; } .grote3, .grote3px{ font-size: 3px; } .grote4, .grote4px{ font-size: 4px; } .grote5, .grote5px{ font-size: 5px; } .grote6, .grote6px{ font-size: 6px; } .grote7, .grote7px{ font-size: 7px; } .grote8, .grote8px{ font-size: 8px; } .grote9, .grote9px{ font-size: 9px; } .grote10, .grote10px{ font-size: 10px; } .grote11, .grote11px{ font-size: 11px; } .grote12, .grote12px{ font-size: 12px; } .grote13, .grote13px{ font-size: 13px; } .grote14, .grote14px{ font-size: 14px; } .grote15, .grote15px{ font-size: 15px; } .grote16, .grote16px{ font-size: 16px; } .grote17, .grote17px{ font-size: 17px; } .grote18, .grote18px{ font-size: 18px; } .grote19, .grote19px{ font-size: 19px; } .grote20, .grote20px{ font-size: 20px; } .grote21, .grote21px{ font-size: 21px; } .grote22, .grote22px{ font-size: 22px; } .grote23, .grote23px{ font-size: 23px; } .grote24, .grote24px{ font-size: 24px; } .grote25, .grote25px{ font-size: 25px; } .grote26, .grote26px{ font-size: 26px; } .grote27, .grote27px{ font-size: 27px; } .grote28, .grote28px{ font-size: 28px; } .grote29, .grote29px{ font-size: 29px; } .grote30, .grote30px{ font-size: 30px; } .grote31, .grote31px{ font-size: 31px; } .grote32, .grote32px{ font-size: 32px; } .grote33, .grote33px{ font-size: 33px; } .grote34, .grote34px{ font-size: 34px; } .grote35, .grote35px{ font-size: 35px; } .grote36, .grote36px{ font-size: 36px; } .grote37, .grote37px{ font-size: 37px; } .grote38, .grote38px{ font-size: 38px; } .grote39, .grote39px{ font-size: 39px; } .grote40, .grote40px{ font-size: 40px; } .grote41, .grote41px{ font-size: 41px; } .grote42, .grote42px{ font-size: 42px; } .grote43, .grote43px{ font-size: 43px; } .grote44, .grote44px{ font-size: 44px; } .grote45, .grote45px{ font-size: 45px; } .grote46, .grote46px{ font-size: 46px; } .grote47, .grote47px{ font-size: 47px; } .grote48, .grote48px{ font-size: 48px; } .grote49, .grote49px{ font-size: 49px; } .grote50, .grote50px{ font-size: 50px; } .grote51, .grote51px{ font-size: 51px; } .grote52, .grote52px{ font-size: 52px; } .grote53, .grote53px{ font-size: 53px; } .grote54, .grote54px{ font-size: 54px; } .grote55, .grote55px{ font-size: 55px; } .grote56, .grote56px{ font-size: 56px; } .grote57, .grote57px{ font-size: 57px; } .grote58, .grote58px{ font-size: 58px; } .grote59, .grote59px{ font-size: 59px; } .grote60, .grote60px{ font-size: 60px; } .grote61, .grote61px{ font-size: 61px; } .grote62, .grote62px{ font-size: 62px; } .grote63, .grote63px{ font-size: 63px; } .grote64, .grote64px{ font-size: 64px; } 
+
+a:hover{
+	text-decoration: underline;
+}
+
+a, a:link, a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+a:disabled{
+  color: slategray;
+}
+
+code{
+	line-height: 0.5em;
+}
+
+@media screen and (max-width: 1024px){
+  #main{
+    width: 100%;
+	box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 880px){
+	#main{
+		margin: 0px;
+	}
+}
+
+@media screen and (max-width: 820px){
+	nav{
+		height: 50px;
+	}
+	nav ul li{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 15px;
+		text-align: left;
+	}
+	nav ul li:hover{
+		background-color: #ccc;
+	}
+	.handle{
+		display: block;
+		width: 100%;
+		height: 50px;
+		background-color: #ddd;
+		cursor:pointer;
+	}
+	.message{
+		float: none;
+		width: 100%;
+	}
+	.sideBar{
+		float: none;
+		width: 100%
+	}
+	
+	.login{
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#recentWindow{
+		min-height: 100px;
+	}
+
+	#volgende, #vorige{
+		padding: 0px 40px;
+	}
+	.form form textarea{
+		width: 100%;
+	}
+}
